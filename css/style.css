@@ -1,0 +1,91 @@
+/*the login bar above with the hover*/
+.login{
+	padding: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 20px;
+	color: #1da1f3;
+	background: #FFFFFF;
+	border: 1px solid #1da1f3;
+	position: absolute;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.login:hover{
+	background: #1da1f3;
+	color: #FFFFFF;
+	-o-transition:all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+}
+
+/*the email/phone log in bar above arrangement*/
+input[type="text"]{
+	margin-right: 6px;
+}
+
+/*the whole log in form controller*/
+#form{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+/*the forgot password link and hover style here*/
+.a{
+	text-decoration: none;
+	margin-left: 192px;
+	color: grey;
+}
+
+.a:hover{
+	color: #1da1f3;
+}
+
+/*the header and sign up and sign in button below*/
+
+.cent{
+	margin-top: 150px;
+	margin-left: 70px;
+}
+
+/*the header styling*/
+h2{
+	font-family: arial;
+	font-size: 26px;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-family: arial;
+	font-size: 16px;
+}
+/*the sign up and sign in button below the header*/
+#signup{
+	padding: 8px;
+	padding-left: 30%;
+	padding-right: 30%;
+	border-radius: 20px;
+	margin-left: -5px;
+	text-decoration: none;
+}
+
+#login{
+	background: #FFFFFF;
+	padding: 8px;
+	border: 1px solid #1da1f3;
+	padding-left: 30%;
+	padding-right: 30%;
+	border-radius: 20px;
+	color: #1da1f3;
+	text-decoration: none;
+}
+
+/*the cover of the whole form and header*/
+.cover{
+	border: 1px solid red;
+	padding: 35px;
+	width: 500px;
+	padding-bottom: 110px;
+	margin-left: 300px;
+	box-shadow: silver 5px 5px 20px 0px;
+}
